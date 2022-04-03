@@ -107,7 +107,7 @@ mentioned Views work like plain `ImageView` and `ImageButton`.
 ### From Java code
 `GifImageView`, `GifImageButton` and `GifTextView` have also hooks for setters implemented. So animated GIFs can be set by calling `setImageResource(int resId)` and `setBackgroundResource(int resId)`
 
-`GifDrawable` can be constructed directly from various sources:
+Alternatively, it is possible to use a plain `ImageView` (or `ImageButton`) together with a `GifDrawable`. This custom drawable can be constructed directly from various sources:
 
 ```java
 //asset file
